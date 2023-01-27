@@ -1,0 +1,407 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Author
+# This file is distributed under the same license as the renom_tag package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: renom_tag \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-09 15:05+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../rsts/how_to_use.rst:2
+msgid "How to use"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:5
+msgid "Before starting"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:8
+msgid "Directory structure"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:10
+msgid "Before starting ReNomTGA, let me introduce the directory structure."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:13
+msgid ""
+"If you run ReNomTAG in the ``working_directory``, image datasets need to "
+"be aligned as following directory structure."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:16
+msgid "Do not change the directory name of ``public``, ``dataset`` and ``label``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:18
+msgid "The role of each directory are below."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:21
+msgid "public"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:21
+msgid ""
+"This is the root directory of datasets. The directory name ``public`` "
+"must not be changed."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:25
+msgid "user1, user2..."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:24
+msgid ""
+"These directories contain image data and created label data for each "
+"user. These directories' names can be changed."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:28
+msgid "dataset"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:28
+msgid "This directory contains image data for tagging."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:31
+msgid "label"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:31
+msgid "Created label data will be put into this directory."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:64
+msgid "Put Image data"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:65
+msgid "Please put image data to ``dataset`` directory."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:72
+msgid "Run server"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:73
+msgid ""
+"For running ReNomTAG, please use following command in your ``working "
+"directory``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:79
+msgid "This command has following options."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:86
+msgid "And put the following URL to your web browser."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:90
+msgid "Then the ``public`` directory will be loaded and following screen."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:96
+msgid "Put tags to images"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:99
+msgid "Put a tag(Bounding Box)"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:101
+msgid "You can put a tag(Bounding box) by dragging."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:107
+msgid ""
+"For saving the tag(a pair of bounding boxes and tag name), ``class tag "
+"name`` are required."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:111
+msgid "Save the tag"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:113
+msgid ""
+"For saving the tag, please push the ```save`` button. Or the ``Space`` "
+"key acts as a shortcut of save."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:118
+msgid "Set a shortcut key to class tag"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:120
+msgid "You can set a shortcut key to the class tag name."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:125
+msgid "Show filtered images"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:127
+msgid "You can filter the images to be shown."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:129
+msgid "**All** : All of images."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:130
+msgid "**Need Review** : Images that are marked neither OK nor NG."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:131
+msgid "**No Tags** : Images that has no tags."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:132
+msgid "**OK** : Images that are marked as ``OK`` by admin user."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:133
+msgid "**NG** : Images that are marked as ``NG`` by admin user."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:142
+msgid "Admin mode"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:144
+msgid "Admin mode has following functions."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:146
+msgid "Create new class tags."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:147
+msgid "Mark the tagged image ``OK`` or ``NG``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:148
+msgid "Put comments to the tagged image."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:151
+msgid "Enter admin mode"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:153
+msgid "To enter the admin mode, please put ``admin`` to the URL like this."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:157
+msgid "Then you will see the title has changed to ``Admin``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:163
+msgid "Add new class tag"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:165
+msgid ""
+"When you are in the admin mode, you can add new class tag. To do this, "
+"input new class tag name to the following form."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:168
+msgid "And push the ``Add New Tag`` button."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:170
+msgid ""
+"You can also add a shortcut key. The shortcut key can be changed if you "
+"are in the normal mode."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:176
+msgid "Put a mark to the image"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:178
+msgid ""
+"Admin mode also provides marking function. You can mark tagged images as "
+"``OK`` or ``NG``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:181
+msgid "For doing this, please push the following OK, NG button."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:185
+msgid "And then pushing the ``save`` button, the mark will be saved."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:189
+msgid "Put a comment to the image"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:191
+msgid ""
+"You can also put a comment to the image. The user in normal mode can see "
+"the comment but they can't change this."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:196
+msgid "Back to normal mode"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:198
+msgid "To go back to normal mode, please remove ``admin`` from the URL."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:203
+msgid "Use ReNomTAG with multiple user"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:205
+msgid ""
+"You can add user directory under the public folder and you can choose the"
+" directory you work on."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:210
+msgid ""
+"Above image represents following directory structure. There are 4 user "
+"directories(Alice, Bob, user and user2)."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:257
+msgid ""
+"You can work on the any user directory. Each data of directory will not "
+"be shared."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:261
+msgid ""
+"The user separated directories are recognised by ReNomTAG if they "
+"contains ``dataset`` and ``label`` directories."
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:2
+msgid "Installation"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:5
+msgid "Requirements"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:7
+msgid "**Python modules**"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:9
+msgid "argh==0.26.2"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:10
+msgid "attrs==17.4.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:11
+msgid "beautifulsoup4==4.6.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:12
+msgid "bottle==0.12.13"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:13
+msgid "bs4==0.0.1"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:14
+msgid "glob2==0.6"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:15
+msgid "lxml==4.2.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:16
+msgid "more-itertools==4.1.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:17
+msgid "pathtools==0.1.2"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:18
+msgid "Pillow==5.0.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:19
+msgid "pluggy==0.6.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:20
+msgid "py==1.5.3"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:21
+msgid "pytest==3.5.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:22
+msgid "PyYAML==3.12"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:23
+msgid "six==1.11.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:24
+msgid "waitress==1.1.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:25
+msgid "watchdog==0.8.3"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:26
+msgid "WebOb==1.7.4"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:27
+msgid "WebTest==2.0.29"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:28
+msgid "xmltodict==0.11.0"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:32
+msgid "Install by pip"
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:34
+msgid "Linux(Ubuntu) OS: You can install ReNomTAG by pip command."
+msgstr ""
+
+#: ../../rsts/installation/installation.rst:42
+msgid "Install from source"
+msgstr ""
+
+#: ../../rsts/introduction.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: ../../rsts/introduction.rst:6
+msgid "**ReNomTAG** is a tagging tool for object detection."
+msgstr ""
+

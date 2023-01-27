@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Author
+# This file is distributed under the same license as the renom_tag package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: renom_tag \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-24 22:04+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../renom_tag.rst:2
+msgid "renom\\_tag package"
+msgstr ""
+
+#: ../../renom_tag.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../renom_tag.rst:8
+msgid "renom\\_tag.server module"
+msgstr ""
+
+#: ../../renom_tag.rst:17
+msgid "Module contents"
+msgstr ""
+
+#~ msgid "save xml file from dictionary"
+#~ msgstr ""
+
+#~ msgid "Returns"
+#~ msgstr ""
+
+#~ msgid "save annotation png from list by using PIL"
+#~ msgstr ""
+
+#~ msgid "none"
+#~ msgstr ""
+
+#~ msgid "wrap points by xml tag"
+#~ msgstr ""
+
+#~ msgid "converted label_dict"
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`enum.Enum`"
+#~ msgstr ""
+
+#~ msgid "An enumeration."
+#~ msgstr ""
+

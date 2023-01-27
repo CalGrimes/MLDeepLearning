@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Grid
+# This file is distributed under the same license as the ReNomTAG package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ReNomTAG \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-04 15:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../rsts/directory_structure.rst:2 ../../rsts/directory_structure.rst:6
+msgid "Directory structure"
+msgstr "ディレクトリ構造"
+
+#: ../../rsts/directory_structure.rst:8
+msgid "Before starting ReNomTAG, we will explain the directory structure."
+msgstr "ReNomTAGを起動する前に、画像ファイルを設置するディレクトリ構造について説明します。"
+
+#: ../../rsts/directory_structure.rst:10
+msgid ""
+"Assuming that you run ReNomTAG from ``working_directory``, image datasets"
+" must be aligned according to the following directory structure."
+msgstr ""
+"ここからは、``working_directory`` "
+"という名前のディレクトリで作業を行っていることを想定します。その場合、以下に示すようなディレクトリ構造が定義されている必要があります。"
+
+#: ../../rsts/directory_structure.rst:13
+msgid ""
+"The directory names for the ``public``, ``dataset`` and ``label`` "
+"directories must not be changed."
+msgstr "特に、``public``、``dataset``、``label`` ディレクトリについては名前を変更しないでください。"
+
+#: ../../rsts/directory_structure.rst:15
+msgid "The role of each directory is described below."
+msgstr "それぞれのディレクトリは以下の様な役割を担います。"
+
+#: ../../rsts/directory_structure.rst:18
+msgid "public"
+msgstr ""
+
+#: ../../rsts/directory_structure.rst:18
+msgid ""
+"This is the root directory for datasets. The directory name ``public``  "
+"must not be changed."
+msgstr "データセットのルートとなるディレクトリです。 ディレクトリ名は ``public`` となっている必要があります。"
+
+#: ../../rsts/directory_structure.rst:22
+msgid "user1, user2..."
+msgstr ""
+
+#: ../../rsts/directory_structure.rst:21
+msgid ""
+"These directories contain image data and user-created label data for each"
+" user. These directories' names can be changed."
+msgstr "これらのディレクトリは、タグ付け対象の画像データと作成されたタグデータが含まれます。こちらのディレクトリ名は変更可能です。"
+
+#: ../../rsts/directory_structure.rst:25
+msgid "dataset"
+msgstr ""
+
+#: ../../rsts/directory_structure.rst:25
+msgid "This directory contains image data for tagging."
+msgstr "このディレクトリには、タグ付け対象の画像データを設置してください。ディレクトリ名は、``dataset`` となっている必要があります。"
+
+#: ../../rsts/directory_structure.rst:28
+msgid "label"
+msgstr ""
+
+#: ../../rsts/directory_structure.rst:28
+msgid "User-created label data will be automatically saved into this directory."
+msgstr "作成したタグデータはこのディレクトリに保存されます。ディレクトリ名は、``label`` となっている必要があります。"
+
+#: ../../rsts/directory_structure.rst:32
+msgid "detection"
+msgstr ""
+
+#: ../../rsts/directory_structure.rst:31
+msgid ""
+"Detection annotation files (.xml) will be automatically saved into this "
+"directory. To create a detection dataset for ReNomIMG, copy the xml files"
+" in here along with their corresponding image files to the ReNomIMG data "
+"folder."
+msgstr ""
+"物体検出教師データ（.xml）はこのディレクトリに保存されます。"
+"ReNomIMG用のデータセットを作成する場合、このディレクトリにある"
+"xmlファイル及びそれに該当する画像データをReNomIMGデータフォルダーにコピーしてください。"
+
+#: ../../rsts/directory_structure.rst:37
+msgid "segmentation"
+msgstr ""
+
+#: ../../rsts/directory_structure.rst:35
+msgid ""
+"Segmentation annotation files (.png) will be automatically saved into "
+"this directory. To create a segmentation dataset for ReNomIMG, copy the "
+"png files in here along with their corresponding image files to the "
+"ReNomIMG data folder."
+msgstr ""
+"セグメンテーション教師データ（.png）はこのディレクトリに保存されます。"
+"ReNomIMG用のデータセットを作成する場合、このディレクトリにある"
+"pngファイル及びそれに該当する画像データをReNomIMGデータフォルダーにコピーしてください。"
+
+#: ../../rsts/directory_structure.rst:84
+msgid "Provide image data"
+msgstr "画像データの設置"
+
+#: ../../rsts/directory_structure.rst:86
+msgid "Please place the image data into the ``dataset`` directory."
+msgstr "画像データは ``dataset`` ディレクトリに設置してください。"
+
+#: ../../rsts/directory_structure.rst:88
+msgid ""
+"ReNomTAG is only able to load file names with halfwidth-alphanumeric "
+"(0-9, a-z, A-Z) and under-bar (_) characters. Filenames with, for "
+"example, hyphen (-), asterisk(*), etc cannot be loaded."
+msgstr ""
+"また、画像データのファイル名には半角英数及びアンダーバーのみが使えます。(0-9, a-z, A-Z, _)"
+"それ以外のハイフンやアスタリスク(-, * )などが含まれる名前の画像データをReNomTAGに読み込むことはできないので注意してください。"
+
+#: ../../rsts/directory_structure.rst:92
+msgid ""
+"ReNomTAG supports images with \".jpeg\", \".jpg\", \".png\", or \".bmp\" "
+"file extensions."
+msgstr ""
+"ファイルの種類については、拡張子が\".jpg\"、\".jpeg\"、\".png\"、\".bmp\"であるファイルを読み込むことが可能です。"

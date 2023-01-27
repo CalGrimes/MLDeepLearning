@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Grid
+# This file is distributed under the same license as the ReNomTAG package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ReNomTAG \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-04 15:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../rsts/how_to_tag.rst:2
+msgid "How to tag"
+msgstr "画像のタグ付け"
+
+#: ../../rsts/how_to_tag.rst:5
+msgid ""
+"ReNomTAG provides two tagging modes for creating labeled data. In "
+"Detection mode, users can create bounding box information for object "
+"detection models. In Segmentation mode, users can create pixel-level "
+"segmentation labels for semantic segmentation models. Each mode is "
+"described below."
+msgstr ""
+"ReNomTAGは二つのタグ付けモードを提供します。"
+"Detectionモードで物体検出用のバウンディングボックスを作成します。"
+"Segmentationモードではピクセル単位のセマンティックセグメンテーションラベルデータを作成します。"
+"各モードについて以下に説明します。"
+
+#: ../../rsts/how_to_tag.rst:9
+msgid ""
+"To switch between the modes, click the mode you would like to use at the "
+"upper right."
+msgstr "モードを選択するには右上のメニューで対象モードをクリックしてください。"
+
+#: ../../rsts/how_to_tag.rst:15
+msgid "Detection mode"
+msgstr "Detectionモード"
+
+#: ../../rsts/how_to_tag.rst:18
+msgid "Create tags (bounding boxes)"
+msgstr "タグ（バウンディングボックス）を設置する"
+
+#: ../../rsts/how_to_tag.rst:20
+msgid ""
+"You can create a tag (bounding box) by dragging the cursor inside the "
+"image."
+msgstr "表示されている画像をドラッグすることで、タグ(バウンディングボックス)を設置することができます。"
+
+#: ../../rsts/how_to_tag.rst:27
+msgid ""
+"For saving the tag (a pair of bounding boxes and tag name), a ``class tag"
+" name`` is required."
+msgstr ""
+"画像につけたタグ(バウンディングボックスとタグ名の組)を保存するためには、バウンディングボックスに ``class tag name`` "
+"が付いている必要があります。"
+
+#: ../../rsts/how_to_tag.rst:31
+msgid "Save tags"
+msgstr "タグを保存する"
+
+#: ../../rsts/how_to_tag.rst:33
+msgid ""
+"To save the tag, please click the ``save`` button. The ``Space`` key also"
+" acts as a shortcut for saving."
+msgstr ""
+"タグを保存するには、``save`` ボタンを押してください。もしくはキーボードのSpaceキーを ``save`` "
+"ボタンのショートカットとして使用することができます。"
+
+#: ../../rsts/how_to_tag.rst:38
+msgid "Hide all unselected tags"
+msgstr "非選択のタグを非表示にする"
+
+#: ../../rsts/how_to_tag.rst:39
+msgid ""
+"You can choose to hide unselected boxes by clicking the ``toggle "
+"button``. ``Ctrl+d`` can also be used as a shortcut for this. New boxes "
+"can still be added in this mode. Return to the normal view by clicking "
+"the toggle button or using ``Ctrl+d`` again."
+msgstr ""
+"ひとつのバウンディングボックスのみを表示したい場合、そのボックスを選択した後にトグルボタンをクリックしてください。もしくはキーボードの "
+"``Ctrl+d`` "
+"をショートカットとして使用することができます。このモード中でも通常と同じように新しいボックスを追加することができます。トグルボタンを再度クリック"
+
+#: ../../rsts/how_to_tag.rst:49 ../../rsts/how_to_tag.rst:133
+msgid "Set shortcut keys for class tags"
+msgstr "Class Tagに対してショートカットキーを設定する"
+
+#: ../../rsts/how_to_tag.rst:51 ../../rsts/how_to_tag.rst:135
+msgid "You can set a shortcut key for each class tag name."
+msgstr "Class tag nameに対してショートカットキーを設定することができます。"
+
+#: ../../rsts/how_to_tag.rst:55
+msgid "Default shortcut keys for faster tagging"
+msgstr "タグ付けのデフォルトショートカットキー"
+
+#: ../../rsts/how_to_tag.rst:57
+msgid "ReNomTAG provides the following default shortcuts for faster tagging."
+msgstr "タグ付け作業の効率化のため、ReNomTAGは下記のデフォルトショートカットを提供します。"
+
+#: ../../rsts/how_to_tag.rst:59
+msgid ""
+"``Ctrl+b`` : Copy all boxes from previous image and paste on current "
+"image."
+msgstr "``Ctrl+b``: 直近でアノテーションした画像のボックスを全てコピーし、作業中の画像にペースト"
+
+#: ../../rsts/how_to_tag.rst:60
+msgid ""
+"``Ctrl+c, Ctrl+v`` : Copy currently selected box and paste on current "
+"image."
+msgstr "``Ctrl+c, Ctrl+v`` :  作業中の画像において、選択したボックスをコピー・ペースト"
+
+#: ../../rsts/how_to_tag.rst:61
+msgid "``Ctrl+z`` :  Undo previous change to box (shape, position, or class tag)."
+msgstr "``Ctrl+z`` :  ボックスに対して、直近の操作（形・位置・クラスタグ）を取り消す"
+
+#: ../../rsts/how_to_tag.rst:65 ../../rsts/how_to_tag.rst:139
+msgid "Full-screen tagging"
+msgstr "全画面モード"
+
+#: ../../rsts/how_to_tag.rst:67 ../../rsts/how_to_tag.rst:141
+msgid ""
+"Tag in full-screen mode with the ``Ctrl+w`` or clicking the third icon at"
+" the bottom of the current image. Return to normal mode by using the same"
+" shortcut or clicking the same icon."
+msgstr ""
+"``Ctrl+w`` を押すと全画面モードに入ります。もう一度、``Ctrl+w`` "
+"を押すと通常モードに戻ります。画像下部のツールバーにある左から3番目のボタンをクリックすることで同じモードの切り替えが可能です。"
+
+#: ../../rsts/how_to_tag.rst:75 ../../rsts/how_to_tag.rst:149
+msgid "Expanding/shrinking images during tagging"
+msgstr "画像の拡大・縮小"
+
+#: ../../rsts/how_to_tag.rst:77 ../../rsts/how_to_tag.rst:151
+msgid ""
+"Expand or shrink the active image by using the trackpad or the ``+`` or "
+"``-`` buttons in the toolbar at the bottom of the image. Return to the "
+"original image size by clicking the second icon on the toolbar."
+msgstr ""
+"画像下部のツールバーの ``+`` 及び ``-`` "
+"ボタンで画像の拡大・縮小も可能です。ツールバーの左から二つ目のボタンをクリックすることで本来の画像サイズに戻ります。"
+
+#: ../../rsts/how_to_tag.rst:85
+msgid "Segmentation mode"
+msgstr "Segmentationモード"
+
+#: ../../rsts/how_to_tag.rst:89
+msgid "Create segmentation labels"
+msgstr "Segmentationラベルを作成する"
+
+#: ../../rsts/how_to_tag.rst:91
+msgid ""
+"Segmentation labels are created as polygons with vertices defined at each"
+" location the user clicks."
+msgstr "Segmentationラベルはユーザがマウス操作で指定したポリゴンとして作成されます。"
+"ユーザがクリックした箇所にポリゴンの頂点が設置されます。"
+
+#: ../../rsts/how_to_tag.rst:93
+msgid ""
+"Create a segmentation label by first clicking anywhere along the boundary"
+" of the object to be segmented. The initial point is represented by a "
+"enlarged, hollow circle. Move around the border of the object and click "
+"at regular intervals to create polygon vertices."
+msgstr ""
+"ポリゴンを作成するには、まず対象となる物体の輪郭線にクリックしてください。"
+"起点が大きいマルとして設置されます。物体の輪郭線を辿りながら、適当な間隔で
+"クリックして各頂点を設置します。"
+
+#: ../../rsts/how_to_tag.rst:97
+msgid "The vertices will be connected by straight lines."
+msgstr "頂点と頂点の間は直線で接続されます。"
+
+#: ../../rsts/how_to_tag.rst:99
+msgid ""
+"After returning to the original point, click inside the hollow circle "
+"again to fill in the polygon."
+msgstr ""
+"起点に戻ると改めて起点をクリックしてポリゴンを一旦完成してください。"
+
+#: ../../rsts/how_to_tag.rst:104
+msgid ""
+"Then select a class label from the list at right to select the class of "
+"the area you just created. The color of the polygon will change to "
+"reflect the class color."
+msgstr ""
+"そして右側のメニュー（及びショートカットキー）でポリゴンのクラスを選択してください。"
+"選択後、ポリゴンの色がクラス色に変わります。"
+
+#: ../../rsts/how_to_tag.rst:110
+msgid ""
+"Click the image anywhere outside the active polygon area to exit editing "
+"mode. You can now save the label information."
+msgstr ""
+"最後に画像内でポリゴン外の任意の場所をクリックして、ポリゴンを確定してください。"
+"この状態で``Save``ボタンもしくはキーボードのSpaceキーでラベルデータが保存できます。"
+
+#: ../../rsts/how_to_tag.rst:115
+msgid ""
+"To edit an existing polygon, click once inside the polygon to enable "
+"editing. The polygon vertices will reappear for editing."
+msgstr ""
+"既存ポリゴンを編集したい場合は、ポリゴン内に一つクリックすると"
+"ポリゴンの頂点が改めて表示されます。"
+
+#: ../../rsts/how_to_tag.rst:122
+msgid ""
+"For saving the label (polygon vertices and class name), a ``class tag "
+"name`` is required."
+msgstr "画像につけたラベルを保存するためには、ポリゴンに ``class`` "
+"がアサインされている必要があります。"
+
+#: ../../rsts/how_to_tag.rst:126
+msgid "Save label"
+msgstr "ラベルを保存する"
+
+#: ../../rsts/how_to_tag.rst:128
+msgid ""
+"To save the label, please click the ``save`` button. The ``Space`` key "
+"also acts as a shortcut for saving."
+msgstr ""
+"ラベルを保存するには、``save`` ボタンを押してください。もしくはキーボードのSpaceキーを ``save`` "
+"ボタンのショートカットとして使用することができます。"

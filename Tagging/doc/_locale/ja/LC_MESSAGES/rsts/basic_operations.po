@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Grid
+# This file is distributed under the same license as the ReNomTAG package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ReNomTAG \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-04 15:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../rsts/basic_operations.rst:2
+msgid "Basic Operations"
+msgstr "基本操作"
+
+#: ../../rsts/basic_operations.rst:6
+msgid "Run server"
+msgstr "ReNomTAGの起動"
+
+#: ../../rsts/basic_operations.rst:7
+msgid ""
+"For running ReNomTAG, please use the following command in your ``working "
+"directory``."
+msgstr ""
+"ReNomTAGを起動するには、以下のコマンドを使用します。作業ディレクトリ(ここでは ``working_directory`` "
+")にて起動コマンドを実行してください。"
+
+#: ../../rsts/basic_operations.rst:13
+msgid "This command has the following options."
+msgstr "こちらの起動コマンドには、以下のオプションがあります。"
+
+#: ../../rsts/basic_operations.rst:20
+msgid "Then type the following URL into your web browser."
+msgstr "ReNomTAGを起動したら、以下のURLをウェブブラウザに入力してください。"
+
+#: ../../rsts/basic_operations.rst:24
+msgid ""
+"The ``public`` directory will be loaded and following screen will be "
+"displayed."
+msgstr "``public`` ディレクトリ以下が読み込まれ、以下の様な画面が表示されます。"
+
+#: ../../rsts/basic_operations.rst:31
+msgid "Select Dataset"
+msgstr "データセットを選択する"
+
+#: ../../rsts/basic_operations.rst:33
+msgid ""
+"After starting the application, select the dataset for tagging from the "
+"list on the left. If the list is not displayed, click the icon in the "
+"upper left to access the list and select your dataset. This icon can be "
+"used to switch between datasets at any time."
+msgstr ""
+"ReNomTAG起動後、教師データ作成対象となる画像データセットを左のリストから選択してください。"
+"リストが表示されない場合は、左上のアイコンをクリックするとデータセットの選択ができます。"
+"アプリケーション起動中にデータセットの切り替えはいつでもできます。"
+
+#: ../../rsts/basic_operations.rst:39
+msgid "Select Tagging Mode"
+msgstr "教師データモードを選択する"
+
+#: ../../rsts/basic_operations.rst:41
+msgid ""
+"ReNomTAG provides modes for creating both object detection tags (bounding"
+" boxes) and semantic segmentation labels (pixel-level annotations). "
+"Please select the mode you will use by clicking on the corresponding mode"
+" name in the upper right."
+msgstr ""
+"ReNomTAGには物体検出教師データ (Detection) 作成モード及び"
+"セマンティックセグメンテーション教師データ作成モード (Segmentation) があります。"
+"右上のモード名をクリックして利用するモードを選択してください。"
+
+#: ../../rsts/basic_operations.rst:49
+msgid "Filter images"
+msgstr "画像をフィルタリングする"
+
+#: ../../rsts/basic_operations.rst:51
+msgid "You can filter the images to be shown."
+msgstr "リストとして表示する画像をフィルタリング可能です。"
+
+#: ../../rsts/basic_operations.rst:53
+msgid "**All** : Show all images."
+msgstr "**All** : すべての画像を表示します。"
+
+#: ../../rsts/basic_operations.rst:54
+msgid "**Need Review** : Show images marked neither OK nor NG."
+msgstr "**Need Review** : タグ付け済みで、管理者によるレビューが必要な画像のみを表示します。"
+
+#: ../../rsts/basic_operations.rst:55
+msgid "**No Tags** : Show images with no tags."
+msgstr "**No Tags** : タグがつけられていない画像のみを表示します。"
+
+#: ../../rsts/basic_operations.rst:56
+msgid "**OK** : Show images marked as ``OK`` by admin user."
+msgstr "**OK** : 管理者によって ``OK`` マークがつけられた画像のみを表示します。"
+
+#: ../../rsts/basic_operations.rst:57
+msgid "**NG** : Show images marked as ``NG`` by admin user."
+msgstr "**NG** : 管理者によって ``NG`` マークがつけられた画像のみを表示します。"
+
+#: ../../rsts/basic_operations.rst:64
+msgid "Add tags or labels to images"
+msgstr "画像にタグを設置する"
+
+#: ../../rsts/basic_operations.rst:66
+msgid ""
+"Please refer to \"4: How to tag\" for an explanation of how to apply tags"
+" or labels to images."
+msgstr "Detectionタグ付け及びSegmentationラベル付け方法について\"4: How to tag\"に参照してください。"
+
+#: ../../rsts/basic_operations.rst:70
+msgid "Add comments to images"
+msgstr "画像にコメントをつける"
+
+#: ../../rsts/basic_operations.rst:72
+msgid ""
+"You can also add comments to images. Users in normal mode can view "
+"comments but they cannot edit or add them."
+msgstr ""画像に対してコメントをつけることができます。管理者モードに入っていない時(通常モード)はコメントの編集はできませんがコメントを確認することができます。"
+"
+
+#: ../../rsts/basic_operations.rst:84
+msgid "Admin mode"
+msgstr "管理者モード"
+
+#: ../../rsts/basic_operations.rst:86
+msgid ""
+"ReNomTAG has two modes of operation, normal mode (default) and Admin "
+"mode. Admin mode has all functions found in normal mode as well as the "
+"following functions."
+msgstr ""
+"ReNomTAGには通常モードと管理者モードと二つの利用モードがあります。"
+"通常モードの全機能に加え、管理者モードでは下記の機能も利用できます。"
+
+#: ../../rsts/basic_operations.rst:89
+msgid "Add/delete class tags."
+msgstr "クラスタグの追加・削除"
+
+#: ../../rsts/basic_operations.rst:90
+msgid "Mark tagged images as ``OK`` or ``NG``."
+msgstr "タグ付け済み画像に対し、``OK``、``NG`` マークをつける。"
+
+#: ../../rsts/basic_operations.rst:94
+msgid "Enter admin mode"
+msgstr "管理者モードに入る"
+
+#: ../../rsts/basic_operations.rst:96
+msgid "To enter admin mode, please add ``admin`` to the URL as shown below."
+msgstr "管理者モードに入るためには、ウェブブラウザのURLフォームにadminをつけたURLを入力してください。"
+
+#: ../../rsts/basic_operations.rst:100
+msgid "The title of the page should change to ``Admin``."
+msgstr "管理者モードに入った場合、以下の様にReNomTAGのタイトルがAdminへと変わります。"
+
+#: ../../rsts/basic_operations.rst:107
+msgid "Add new class tags"
+msgstr "新たな Class Tag を定義する"
+
+#: ../../rsts/basic_operations.rst:109
+msgid ""
+"If you are in admin mode, you can add new class tags. To do this, type "
+"the new class tag name into the form shown below."
+msgstr "管理者モードでは、新たなClass Tagを定義することができます。そのためには、以下の画像に示す入力フォームに、新たなタグ名を入力してください。"
+
+#: ../../rsts/basic_operations.rst:112
+msgid "Next, click the ``Add New Tag`` button."
+msgstr "そして、``Add New Tag`` ボタンを押してください。"
+
+#: ../../rsts/basic_operations.rst:114
+msgid ""
+"You can also add a shortcut key. The shortcut key can be changed in "
+"either admin or normal mode."
+msgstr "また、Class Tagに対してショートカットキーを設定することもできます。ショートカットキーは管理者モードでなくとも変更可能です。"
+
+#: ../../rsts/basic_operations.rst:122
+msgid "Delete class tags"
+msgstr "クラスタグの削除"
+
+#: ../../rsts/basic_operations.rst:124
+msgid ""
+"If you are in admin mode, you can also delete existing class tags. To do "
+"this, click the ``Delete Tag List`` button shown in red below."
+msgstr ""
+"管理者モードでは、Class Tagを削除することができます。Tagを削除するためにまず ``Delete Tag List`` "
+"ボタンをクリックしてください。そして、削除対象を個別に選択してください。"
+
+#: ../../rsts/basic_operations.rst:127
+msgid ""
+"Next, select the individual tags you would like to delete, and click "
+"``Delete``."
+msgstr "選択後に、 ``Delete`` ボタンを押すとタグが削除されます。"
+
+#: ../../rsts/basic_operations.rst:134
+msgid "Apply marks to images"
+msgstr "画像にタグを設置する"
+
+#: ../../rsts/basic_operations.rst:136
+msgid ""
+"Admin mode also provides a marking function. You can mark tagged images "
+"as ``OK`` or ``NG``."
+msgstr "管理者モードでは、タグ付け済み画像に対してOK、NGマークをつけることが可能です。"
+
+#: ../../rsts/basic_operations.rst:139
+msgid "To apply a mark, please click the OK or NG button."
+msgstr "以下の画像に示すように、OK、NGボタンを選択し"
+
+#: ../../rsts/basic_operations.rst:144
+msgid "After clicking the ``save`` button, the mark will be saved."
+msgstr "``save`` ボタンを押すことでマークをつけることができます。"
+
+#: ../../rsts/basic_operations.rst:148
+msgid "Return to normal mode"
+msgstr "通常モードに戻る"
+
+#: ../../rsts/basic_operations.rst:150
+msgid "To return to normal mode, please remove ``admin`` from the URL."
+msgstr "通常モードへ戻る場合は、URLにつけた ``admin`` という文字を削除してください。直ちに通常モードへ戻ることができます。"
+
+#: ../../rsts/basic_operations.rst:157
+msgid "Use ReNomTAG with multiple users"
+msgstr "複数人ユーザでReNomTAGを使う"
+
+#: ../../rsts/basic_operations.rst:159
+msgid ""
+"You can add multiple user directories under the public folder and then "
+"choose which directory you would like to work on."
+msgstr "``public`` ディレクトリ以下にあるユーザディレクトリを選択することができます。"
+
+#: ../../rsts/basic_operations.rst:165
+msgid ""
+"The image above represents the following directory structure. There are 4"
+" user directories (Alice, Bob, user1 and user2)."
+msgstr "上の画像では、下のようなディレクトリ構造を定義した場合のReNomTAGから選択可能なユーザデイレクトリを表示しています。"
+
+#: ../../rsts/basic_operations.rst:212
+msgid ""
+"You can access and work in any user directory. The data in each directory"
+" is not shared with other directories."
+msgstr ""作業者は、どのユーザディレクトリでもタグ付け作業を行うことが可能です別々のディレクトリで作業を行う場合、同じファイルに対して同時に書き込み処理が行われることはありません。"
+"
+
+#: ../../rsts/basic_operations.rst:216
+msgid ""
+"The user-separated directories are recognised by ReNomTAG if they contain"
+" the ``dataset`` and ``label`` sub-directories."
+msgstr ""
+"ユーザごとに、分割されたディレクトリには、 ``dataset`` と ``label`` "
+"ディレクトリが存在する必要があります。もしこれらのディレクトリが存在しない場合、ReNomTAGはユーザディレクトリを認識しません。"
+
+#: ../../rsts/basic_operations.rst:221
+msgid "Supported Browsers"
+msgstr "対応ブラウザ"
+
+#: ../../rsts/basic_operations.rst:223
+msgid ""
+"ReNomTAG currently supports Google Chrome. In some instances, default "
+"shortcut keys for Google Chrome may conflict with ReNomTAG shortcut keys."
+" Please disable the browser shortcut key in order to use the "
+"corresponding shortcut in ReNomTAG."
+msgstr ""
+"ReNomTAGは最新のGoogle "
+"Chromeに対応しています。また、ReNomTAGとブラウザのショートカットキーが衝突した場合は、ブラウザのショートカットキーを無効化したのちReNomTAGのショートカットキーをご利用ください。"

@@ -1,0 +1,33 @@
+{
+    "DETECTION": {
+        "0": {
+            "label": "Ambulance",
+            "shortcut": "1"
+        },
+        "1": {
+            "label": "PoliceVehicle",
+            "shortcut": "2"
+        },
+        "2": {
+            "label": "PoliceOfficer",
+            "shortcut": "3"
+        },
+        "3": {
+            "label": "FireEngine",
+            "shortcut": "4"
+        },
+        "4": {
+            "label": "PetrolTanker",
+            "shortcut": "5"
+        },
+        "5": {
+            "label": "Aeroplane",
+            "shortcut": "6"
+        },
+        "6": {
+            "label": "Car",
+            "shortcut": "7"
+        }
+    },
+    "SEGMENTATION": {}
+}

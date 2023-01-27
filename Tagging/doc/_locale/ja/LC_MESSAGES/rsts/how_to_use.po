@@ -1,0 +1,400 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Grid
+# This file is distributed under the same license as the ReNomTAG package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ReNomTAG \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-07 22:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../rsts/how_to_use.rst:2
+msgid "How to use"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:6
+msgid "Before starting"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:9
+msgid "Directory structure"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:11
+msgid "Before starting ReNomTAG, we will introduce the directory structure."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:14
+msgid ""
+"Assuming that you run ReNomTAG from ``working_directory``, image datasets"
+" must be aligned according to the following directory structure."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:17
+msgid ""
+"The directory names for the ``public``, ``dataset`` and ``label`` "
+"directories must not be changed."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:19
+msgid "The role of each directory is described below."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:22
+msgid "public"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:22
+msgid ""
+"This is the root directory for datasets. The directory name ``public``  "
+"must not be changed."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:26
+msgid "user1, user2..."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:25
+msgid ""
+"These directories contain image data and user-created label data for each"
+" user. These directories' names can be changed."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:29
+msgid "dataset"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:29
+msgid "This directory contains image data for tagging."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:32
+msgid "label"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:32
+msgid "User-created label data will be automatically saved into this directory."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:65
+msgid "Provide image data"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:66
+msgid "Please place the image data into the ``dataset`` directory."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:68
+msgid ""
+"ReNomTAG is only able to load file names with halfwidth-alphanumeric "
+"(0-9, a-z, A-Z) and under-bar (_) characters. Filenames with, for "
+"example, hyphen (-), asterisk(*), etc cannot be loaded."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:72
+msgid ""
+"ReNomTAG supports images with \".jpeg\", \".jpg\", \".png\", or \".bmp\" "
+"file extensions."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:78
+msgid "Run server"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:79
+msgid ""
+"For running ReNomTAG, please use following command in your ``working "
+"directory``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:85
+msgid "This command has the following options."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:92
+msgid "Then type the following URL into your web browser."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:96
+msgid ""
+"The ``public`` directory will be loaded and following screen will be "
+"displayed."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:103
+msgid "Add tags to images"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:106
+msgid "Create tags (bounding boxes)"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:108
+msgid ""
+"You can create a tag (bounding box) by dragging the cursor inside the "
+"image."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:115
+msgid ""
+"For saving the tag (a pair of bounding boxes and tag name), a ``class tag"
+" name`` is required."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:119
+msgid "Save tags"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:121
+msgid ""
+"To save the tag, please click the ``save`` button. The ``Space`` key also"
+" acts as a shortcut for saving."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:126
+msgid "Hide all unselected tags"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:127
+msgid ""
+"You can choose to hide unselected boxes by clicking the ``toggle "
+"button``. ``Ctrl+d`` can also be used as a shortcut for this. New boxes "
+"can still be added in this mode. Return to the normal view by clicking "
+"the toggle button or using ``Ctrl+d`` again."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:137
+msgid "Set shortcut keys for class tags"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:139
+msgid "You can set a shortcut key for each class tag name."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:143
+msgid "Default shortcut keys for faster tagging"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:145
+msgid "ReNomTAG provides the following default shortcuts for faster tagging."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:147
+msgid ""
+"``Ctrl+b`` : Copy all boxes from previous image and paste on current "
+"image."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:148
+msgid ""
+"``Ctrl+c, Ctrl+v`` : Copy currently selected box and paste on current "
+"image."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:149
+msgid "``Ctrl+z`` :  Undo previous change to box (shape, position, or class tag)."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:153
+msgid "Full-screen tagging"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:155
+msgid ""
+"Tag in full-screen mode with the ``Ctrl+w`` or clicking the third icon at"
+" the bottom of the current image. Return to normal mode by using the same"
+" shortcut or clicking the same icon."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:163
+msgid "Expanding/shrinking images during tagging"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:165
+msgid ""
+"Expand or shrink the active image by using the trackpad or the ``+`` or "
+"``-`` buttons in the toolbar at the bottom of the image. Return to the "
+"original image size by clicking the second icon on the toolbar."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:173
+msgid "Filter images"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:175
+msgid "You can filter the images to be shown."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:177
+msgid "**All** : Show all images."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:178
+msgid "**Need Review** : Show images marked neither OK nor NG."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:179
+msgid "**No Tags** : Show images with no tags."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:180
+msgid "**OK** : Show images marked as ``OK`` by admin user."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:181
+msgid "**NG** : Show images marked as ``NG`` by admin user."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:191
+msgid "Admin mode"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:193
+msgid "Admin mode has the following functions."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:195
+msgid "Create new class tags."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:196
+msgid "Mark tagged images as ``OK`` or ``NG``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:197
+msgid "Add comments to tagged images."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:200
+msgid "Enter admin mode"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:202
+msgid "To enter admin mode, please add ``admin`` to the URL as shown below."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:206
+msgid "The title of the page should change to ``Admin``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:213
+msgid "Add new class tags"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:215
+msgid ""
+"If you are in admin mode, you can add new class tags. To do this, type "
+"the new class tag name into the form shown below."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:218
+msgid "Next, click the ``Add New Tag`` button."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:220
+msgid ""
+"You can also add a shortcut key. The shortcut key can be changed in "
+"either admin or normal mode."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:228
+msgid "Delete class tags"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:230
+msgid ""
+"If you are in admin mode, you can also delete existing class tags. To do "
+"this, click the ``Delete Tag List`` button shown in red below."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:233
+msgid ""
+"Next, select the individual tags you would like to delete, and click "
+"``Delete``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:240
+msgid "Apply marks to images"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:242
+msgid ""
+"Admin mode also provides a marking function. You can mark tagged images "
+"as ``OK`` or ``NG``."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:245
+msgid "To apply a mark, please click the OK or NG button."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:250
+msgid "After clicking the ``save`` button, the mark will be saved."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:254
+msgid "Add comments to images"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:256
+msgid ""
+"You can also add comments to images. Users in normal mode can view "
+"comments but they cannot edit or add them."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:261
+msgid "Return to normal mode"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:263
+msgid "To return to normal mode, please remove ``admin`` from the URL."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:268
+msgid "Use ReNomTAG with multiple users"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:270
+msgid ""
+"You can add multiple user directories under the public folder and then "
+"choose which directory you would like to work on."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:276
+msgid ""
+"The image above represents the following directory structure. There are 4"
+" user directories (Alice, Bob, user1 and user2)."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:323
+msgid ""
+"You can access and work in any user directory. The data in each directory"
+" is not shared with other directories."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:327
+msgid ""
+"The user-separated directories are recognised by ReNomTAG if they contain"
+" the ``dataset`` and ``label`` sub-directories."
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:332
+msgid "Supported Browsers"
+msgstr ""
+
+#: ../../rsts/how_to_use.rst:334
+msgid ""
+"ReNomTAG currently supports Google Chrome. In some instances, default "
+"shortcut keys for Google Chrome may conflict with ReNomTAG shortcut keys."
+" Please disable the browser shortcut key in order to use the "
+"corresponding shortcut in ReNomTAG."
+msgstr ""
+

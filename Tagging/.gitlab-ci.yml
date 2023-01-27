@@ -1,0 +1,66 @@
+image: node:10.15
+
+stages:
+  - document
+  - pages
+  - test
+
+
+before_script:
+  - apt-get -y update
+  - apt install -y python3 python3-pip python3-wheel
+  - pip3 install -r requirements.txt
+  - python3 -V
+
+test:
+  stage: test
+  script:
+    - pip3 install -e .
+    - pytest
+    - cd js
+    - npm install
+    - npm run unit
+    - cd ..
+
+pages:
+  stage: pages
+  script:
+    - python3 setup.py bdist_wheel sdist
+    - mkdir -p public/bin
+    - cp dist/* public/bin
+    - ls public/bin
+
+  artifacts:
+    paths:
+    - public
+
+  only:
+    - /^release\/.*$/
+
+
+sphinx:
+  stage: document
+  when: manual
+  script:
+    - apt-get update -qq && apt-get install -y -qq pandoc openssh-client
+    - pip3 install -r doc/requirements.txt
+    - pip3 install ipython
+    - pip3 install numpy flake8 pytest pytest-flake8
+    - pip3 install -r requirements.txt
+    - pip3 install -e .
+    - eval $(ssh-agent -s)
+    - echo "$RENOM_JP_SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo "$HOST_KEYS" > ~/.ssh/known_hosts'
+
+    - cd doc
+    - sh build.sh -l all
+    - echo "$RENOM_JP_SSH_PRIVATE_KEY" > tmp
+    - chmod 600 tmp
+    - scp -r -P "$RENOM_JP_PORT" -i tmp _build/html/* renom123@"$RENOM_JP_HOST":"$TEST_DEPLOY_DIR"/renomtag
+    - ssh -p "$RENOM_JP_PORT" renom123@"$RENOM_JP_HOST" rm -rf "$DEPLOY_DIR"/renomtag
+    - ssh -p "$RENOM_JP_PORT" renom123@"$RENOM_JP_HOST" cp -r "$TEST_DEPLOY_DIR"/renomtag "$DEPLOY_DIR"/renomtag
+
+
+
